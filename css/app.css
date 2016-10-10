@@ -33,3 +33,15 @@ body{
 #submenu-container li a:hover{
 	color: #42AEF9;
 }
+
+
+#tickets-action .callout{
+	padding-top: 25px;
+	background-color: #8D8B8B;
+	color: white;		
+}
+
+#tickets-action .callout button{
+	color: white;		
+	border: 1px solid white;
+}
