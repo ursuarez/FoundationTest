@@ -40,9 +40,16 @@
 
     <!-- Menu -->
     <section id="menu-container">
-      <ul class="menu">
+      <ul class="menu drop-down align-spaced" data-dropdown-menu>
         <li><a href="#"><i class="fi-ticket"></i>&nbsp&nbspBoletos</a></li>
-        <li><a href="#"><i class="fi-music"></i>&nbsp&nbspLineup</a></li>
+        <li>
+              <a href="#"><i class="fi-music"></i>&nbsp&nbspLineup</a>
+              <ul class="menu" id="submenu-container">
+                <li><a href="#">Viernes</a></li>
+                <li><a href="#">Sabado</a></li>
+                <li><a href="#">Domingo</a></li>
+              </ul>
+        </li>
         <li><a href="#"><i class="fi-info"></i>&nbsp&nbspInformacion</a></li>
         <li><a href="#"><i class="fi-mail"></i>&nbsp&nbspSuscribete</a></li>  
       </ul>

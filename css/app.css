@@ -10,7 +10,7 @@ body{
 
 #logo-container{
 	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-bottom: 20px;
 }
 
 #menu-container{
@@ -22,5 +22,14 @@ body{
 }
 
 #menu-container li a:hover{
+	color: #42AEF9;
+}
+
+#submenu-container li a{
+	background-color: #2F2F2E;
+	color: white;
+}
+
+#submenu-container li a:hover{
 	color: #42AEF9;
 }
