@@ -1,0 +1,26 @@
+body{
+	background-color: #5B5353;
+}
+
+#social-container{
+	background-color: #2F2F2F;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#logo-container{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#menu-container{
+	background-color: #2F2F2E;
+}
+
+#menu-container li a{
+	color: white;
+}
+
+#menu-container li a:hover{
+	color: #42AEF9;
+}
