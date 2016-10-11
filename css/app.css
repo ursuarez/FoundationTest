@@ -45,3 +45,50 @@ body{
 	color: white;		
 	border: 1px solid white;
 }
+
+#tickets-action .callout button:hover{
+	color: black;		
+	border: 1px solid black;
+}
+
+#lineup-container{
+	padding: 1em 0;
+	border: 0;
+}
+
+#lineup-container,
+#lineup-container .tabs,
+#lineup-container .tabs-panel,
+#lineup-container .tabs-title{
+	background-color: #2F2F2E; 
+	text-transform: uppercase;
+	color: white;
+	border:0;
+}
+
+.tabs-content{
+	border: 0;
+}
+
+#lineup-container .tabs .tabs-title a{	
+	font-size: 18px;
+	color: #42AEF9;
+}
+
+#lineup-container .tabs .tabs-title a:hover{
+	color: white;
+	background-color: #979797;
+}
+
+.tabs-title{
+	display: inline-block;
+	float: none;
+}
+
+#lineup-container .orbit-container{
+	margin-bottom: 1em;
+}
+
+#lineup-container .column:nth-child(odd) figcaption{
+	text-align: right;
+}
